@@ -10,35 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <style>
-        .weblogo {
-            width: 70px;
-
-        }
-
-        .moblogo {
-            display: none;
-        }
-
-        .a {
-            background-color: aliceblue;
-            height: 200px;
-        }
-
-        @media(max-width:768px) {
-            .moblogo {
-                display: block;
-            }
-
-            .weblogo {
-                display: none;
-            }
-
-            .navbar {
-                background: hsl(227, 41%, 68%) !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/contact.css">
 
 </head>
 
@@ -47,9 +19,9 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a href="" class="navbar-brand">
-                <img src="https://tse2.mm.bing.net/th?id=OIP.IMdKom1k10LiV_bX3_9EBAHaHa&pid=Api&P=0&h=180" alt=""
+                <img src="https://tse2.mm.bing.net/th?id=OIP.PoyXzcxZPauNFFg9jKqa8gAAAA&pid=Api&P=0&h=180" alt=""
                     class="weblogo" style="margin-left: 90px;">
-                <img src="https://tse3.mm.bing.net/th?id=OIP.9m0thfZGmYi-aCWeIth6yAHaHa&pid=Api&P=0&h=180" alt=""
+                <img src="https://tse3.mm.bing.net/th?id=OIP.cv_kuUedptHB3IpKVM0jEAAAAA&pid=Api&P=0&h=180" alt=""
                     class="moblogo" style="width: 60px; margin: left 90px; ;">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#si">
@@ -63,7 +35,27 @@
                         <li><a href="http://127.0.0.1:5503/about.html" class="nav-link">about</a></li>
                         <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">contact</a></li>
                         <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">username</a></li>
-                        <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">log out</a></li>
+
+                        <li class="nav-item dropdown my-auto">
+                            <a href="#"
+                                class="nav-link d-block link-body-emphasis text-decoration-none dropdown-toggle text-dark"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="image/WhatsApp Image 2023-11-12 at 16.08.15_7289c961.jpg" alt="mdo" width="40" height="40"
+                                    class="rounded-circle">
+                            </a>
+                            <ul class="dropdown-menu text-small">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log out</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <button class="btn btn-primary me-3 border-light">Log out</button>
+                        </li>
                     </ul>
                 </div>
 
@@ -135,6 +127,63 @@
 
         </div><!--row end-->
     </div><!--contend-->
+
+ <!--footer start-->
+ <footer>
+    <div class="container-fluid bg-light " style="margin-top: 5rem;">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 style="font-size: 30px; font-weight:400;margin-left: 60px; margin-top: 10px;">our
+                    constituent <br>colleges</h1>
+                <ul class="navbar-nav a">
+                    <li><a href=""> bca</a></li>
+                    <li><a href=""> mca</a></li>
+                    <li><a href="">b.tech</a></li>
+                    <li><a href="">be</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <h1 style="font-size: 30px; font-weight:400; margin-top: 10px;">useful links</h1>
+                <ul class="navbar-nav mt-5">
+
+                    <li><a href="">
+                            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">
+                            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            contact</a></li>
+                    <li><a href="">
+                            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            log out</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h1 style="font-size: 30px; font-weight:400; margin-top: 10px;">personal <br>detail</h1>
+                <ul class="navbar-nav">
+                    <li><a href="">
+                            <p> <i class="fa-solid fa-envelope"></i>hr@gmail.com</p>
+                        </a></li>
+                    <li><a href="">
+                            <p> <i class="fa-solid fa-phone"></i>
+                                919899278276</p>
+                        </a></li>
+                    <li><a href="">
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                gwalior m.p india
+                            </p>
+                        </a></li>
+
+                </ul>
+            </div>
+
+
+        </div><!--row end-->
+    </div><!--container end-->
+</footer>
+<!--footer end-->
 
 </body>
 

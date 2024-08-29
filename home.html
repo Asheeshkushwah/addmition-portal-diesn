@@ -11,43 +11,9 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <style>
-        .weblogo {
-            width: 70px;
-
-        }
-
-        .moblogo {
-            display: none;
-        }
-
-        .a {
-            background-color: aliceblue;
-            height: 200px;
-        }
-
-        div ul li a {
-            text-decoration: none;
-            font-size: 20px;
-            color: rgb(102, 154, 154);
-        }
+    <link rel="stylesheet" href="css/home.css">
 
 
-        @media(max-width:768px) {
-            .moblogo {
-                display: block;
-            }
-
-            .weblogo {
-                display: none;
-            }
-
-            .navbar {
-                background: hsl(227, 41%, 68%) !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -55,9 +21,9 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a href="" class="navbar-brand">
-                <img src="https://tse2.mm.bing.net/th?id=OIP.IMdKom1k10LiV_bX3_9EBAHaHa&pid=Api&P=0&h=180" alt=""
+                <img src="https://tse2.mm.bing.net/th?id=OIP.PoyXzcxZPauNFFg9jKqa8gAAAA&pid=Api&P=0&h=180" alt=""
                     class="weblogo" style="margin-left: 90px;">
-                <img src="https://tse3.mm.bing.net/th?id=OIP.9m0thfZGmYi-aCWeIth6yAHaHa&pid=Api&P=0&h=180" alt=""
+                <img src="https://tse3.mm.bing.net/th?id=OIP.cv_kuUedptHB3IpKVM0jEAAAAA&pid=Api&P=0&h=180" alt=""
                     class="moblogo" style="width: 60px; margin: left 90px; ;">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#si">
@@ -71,7 +37,27 @@
                         <li><a href="http://127.0.0.1:5503/about.html" class="nav-link">about</a></li>
                         <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">contact</a></li>
                         <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">username</a></li>
-                        <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">log out</a></li>
+
+                        <li class="nav-item dropdown my-auto">
+                            <a href="#"
+                                class="nav-link d-block link-body-emphasis text-decoration-none dropdown-toggle text-dark"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="image/WhatsApp Image 2023-11-12 at 16.08.15_7289c961.jpg" alt="mdo" width="40"
+                                    height="40" class="rounded-circle">
+                            </a>
+                            <ul class="dropdown-menu text-small">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log out</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <button class="btn btn-primary me-3 border-light">Log out</button>
+                        </li>
                     </ul>
                 </div>
 
@@ -82,10 +68,10 @@
     <!--slider div start-->
     <div class="carousel slide" data-bs-ride="carousel" id="ash">
         <div class="carousel-indicators" style="display: none;">
-            <button type="button" data-bs-target="#ash" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#ash" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#ash" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#ash" data-bs-slide-to="3" class="active"></button>
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="3"></button>
         </div>
 
         <div class="carousel-inner">
@@ -100,12 +86,18 @@
             </div>
 
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://tse4.mm.bing.net/th?id=OIP.3sSkpiruCq6wksG9rTSuzgHaDt&pid=Api&P=0&h=180" alt=""
-                    class="w-100" style="height: 600px;">
+                <img src="https://images.pexels.com/photos/17792670/pexels-photo-17792670/free-photo-of-a-large-brick-building-with-columns-and-a-green-lawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100" style="height: 600px;">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://tse4.mm.bing.net/th?id=OIP.plQ47I9KHyZAWA64dPVISgHaEA&pid=Api&P=0&h=180" alt=""
-                    class="w-100" style="height: 600px;">
+                <img src="https://images.pexels.com/photos/11823056/pexels-photo-11823056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100" style="height: 600px;">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="carousel-item" data-bs-interval="2000">
+                <img src="https://images.pexels.com/photos/11823056/pexels-photo-11823056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100" style="height: 600px;">
+
             </div>
 
         </div><!--carousel-inner- end-->
@@ -123,36 +115,47 @@
         <h1 style="text-transform: capitalize; font: 2rem;">welcome user</h1>
         <p style="text-transform: capitalize;">maharana pratap collage of technology Gwalior madhya presh</p>
         <div class="row">
-            <div class="col-md-4 bg-light mb-2 " style="margin-top: 5rem;">
+            <div class="col-md-4  mb-2 " style="margin-top: 5rem;">
                 <div class="card shadow-lg">
-                    <p class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
-                        perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo enim
-                        neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Facilis, ipsam quia optio nesciunt.
-                    </p>
+                    <div class="card-body">
+                        <p style="text-align: justify;padding: 20px">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
+                            perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo
+                            enim
+                            neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Facilis, ipsam quia optio nesciunt.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 bg-light mb-2" style="margin-top: 5rem;">
+            <div class="col-md-4  mb-2" style="margin-top: 5rem;">
                 <div class="card shadow-lg">
-                    <p class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
-                        perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo enim
-                        neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Facilis, ipsam quia optio nesciunt.
-                    </p>
-
+                    <div class="card-body">
+                        <p style="text-align: justify;padding: 20px">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
+                            perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo
+                            enim
+                            neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Facilis, ipsam quia optio nesciunt.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 bg-light mb-2" style="margin-top: 5rem;">
+            <div class="col-md-4 mb-2" style="margin-top: 5rem;">
                 <div class="card shadow-lg">
-                    <p class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
-                        perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo enim
-                        neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Facilis, ipsam quia optio nesciunt.
-                    </p>
+                    <div class="card-body">
+                        <p style="text-align: justify;padding: 20px">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, ipsam quia optio nesciunt
+                            perspiciatis dolore quibusdam eligendi aperiam accusamus ea soluta odit, consequuntur illo
+                            enim
+                            neque ratione consequatur omnis est? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Facilis, ipsam quia optio nesciunt.
+                        </p>
+                    </div>
                 </div>
 
             </div><!--row end-->
@@ -204,20 +207,16 @@
 
         <!--footer start-->
         <footer>
-            <div class="container-fluid bg-light mt-5">
+            <div class="container-fluid bg-light" style="margin-top: 4rem;">
                 <div class="row">
                     <div class="col-md-4">
                         <h1 style="font-size: 30px; font-weight:400;margin-left: 60px; margin-top: 10px;">our
-                            <br>constituent <br>colleges
-                        </h1>
-                        <ul class="navbar-nav">
-                            <li><a href="">
-
-                                </a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-
+                            constituent <br>colleges</h1>
+                        <ul class="navbar-nav a">
+                            <li><a href=""> bca</a></li>
+                            <li><a href=""> mca</a></li>
+                            <li><a href="">b.tech</a></li>
+                            <li><a href="">be</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 text-center">
@@ -225,18 +224,17 @@
                         <ul class="navbar-nav mt-5">
 
                             <li><a href="">home</a></li>
-                            <li><a href=""> about</a></li>
+                            <li><a href="">about</a></li>
                             <li><a href="">contact</a></li>
-                            <li><a href="">log out</a></li>
+                            <li><a href=""> log out</a></li>
 
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h1 style="font-size: 30px; font-weight:400; margin-top: 10px;">personal <br>detail</h1>
                         <ul class="navbar-nav">
-                            <li><a href="" style="text-decoration: none;">
-                                    <p> <i class="fa-solid fa-envelope"></i>
-                                        hr@gmail.com</p>
+                            <li><a href="">
+                                    <p> <i class="fa-solid fa-envelope"></i>hr@gmail.com</p>
                                 </a></li>
                             <li><a href="">
                                     <p> <i class="fa-solid fa-phone"></i>
